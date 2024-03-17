@@ -1,0 +1,110 @@
+.resource-management-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.dashboard {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.overview {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.total-employees-info,
+.available-employees-info {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.total-employees-info p,
+.available-employees-info p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.employees-list {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.employees-list h2 {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+select {
+  padding: 8px 16px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+select:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px rgba(0, 123, 255, 0.5);
+}
